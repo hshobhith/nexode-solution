@@ -3,7 +3,7 @@
 const links: Record<string, { label: string; href: string }[]> = {
   Company: [
     { label: "About Us", href: "#about" },
-    { label: "Our Team", href: "#team" },
+    // { label: "Our Team", href: "#team" },
     { label: "Careers", href: "#" },
     { label: "Blog", href: "#" },
   ],

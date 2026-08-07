@@ -86,7 +86,7 @@ export default function About() {
             </div>
 
             {/* Software Tech */}
-            <div>
+            {/* <div>
               <h3 className="text-lg font-semibold text-white mb-5 flex items-center gap-2">
                 <span className="w-2 h-2 bg-blue-400 rounded-full" />
                 Software Technology Stack
@@ -112,7 +112,7 @@ export default function About() {
                   );
                 })}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

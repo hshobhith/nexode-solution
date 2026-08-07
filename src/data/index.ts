@@ -5,7 +5,7 @@ export const navItems: NavItem[] = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
-  { label: "Team", href: "#team" },
+  // { label: "Team", href: "#team" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
@@ -264,7 +264,7 @@ export const testimonials: Testimonial[] = [
 export const stats: Stat[] = [
   { label: "Projects Delivered", value: "250", suffix: "+" },
   { label: "Happy Clients", value: "180", suffix: "+" },
-  { label: "Team Members", value: "50", suffix: "+" },
+  // { label: "Team Members", value: "50", suffix: "+" },
   { label: "Years of Experience", value: "8", suffix: "+" },
 ];
 
