@@ -1,0 +1,25 @@
+<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12266E"/>
+      <stop offset="50%" stop-color="#146B8C"/>
+      <stop offset="100%" stop-color="#0F9D3C"/>
+    </linearGradient>
+    <linearGradient id="orangeFade" gradientUnits="userSpaceOnUse"
+                    x1="72.31" y1="29.26" x2="31.73" y2="71.26">
+      <stop offset="0%"   stop-color="#F97316" stop-opacity="1"/>
+      <stop offset="35%"  stop-color="#F97316" stop-opacity="1"/>
+      <stop offset="70%"  stop-color="#F97316" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130,130) scale(1.25)">
+    <circle r="78" fill="none" stroke="url(#g)" stroke-width="12"
+            stroke-linecap="round" stroke-dasharray="430.09 60" transform="rotate(22.04)"/>
+    <path d="M 72.31 29.26 A 78 78 0 0 1 31.73 71.26"
+          fill="none" stroke="url(#orangeFade)" stroke-width="12" stroke-linecap="round"/>
+    <polyline points="-32,34 -32,-34 32,34 32,-34" fill="none" stroke="url(#g)"
+              stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

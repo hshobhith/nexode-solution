@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     description: "Building the future of digital products.",
     type: "website",
   },
+  icons: {
+    icon: "/nexode_icon_final_fade.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
